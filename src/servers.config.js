@@ -1,0 +1,30 @@
+export const servers = [
+  {
+    id: 'stellarnet',
+    name: 'StellarNet',
+    btPanelUrl: 'http://54.183.176.52:16596/',
+    btApiKey: 'uqkXJMZPURgrskg5bL5i3IF9nh1qWFuY',
+    // btPanelUrl: 'http://104.244.92.14:25293/',
+    // btApiKey: 'yp8EkUiWxl3j8VFbPrxR9n4XkWjG8gvu',
+    btIgnoreTls: true,
+    trafficQuotaGb: '',
+  },
+  {
+    id: 'nexusforce',
+    name: 'Nexusforce',
+    btPanelUrl: 'http://63.180.30.69:21652',
+    btApiKey: 'MR4DfYu14KbcWavwfgDDgXt3TUufZjci',
+    btIgnoreTls: true,
+    trafficQuotaGb: '',
+  },
+  {
+    id: 'hybridnodes',
+    name: 'Hybridnodes',
+    // btPanelUrl: 'http://43.157.82.87:26290',
+    // btApiKey: 'FZMw16IcZb2gyHfePTKT3M8mHYYTR2x3',
+    btPanelUrl: 'http://162.62.123.142:39730',
+    btApiKey: 'UAkxLZXyreUCtzfeZZvHtWGk7Apui5jE',
+    btIgnoreTls: true,
+    trafficQuotaGb: '',
+  },
+]
